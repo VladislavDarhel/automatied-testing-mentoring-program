@@ -1,0 +1,27 @@
+{
+  "name": "bdd-project",
+  "version": "1.0.0",
+  "description": "BDD project with Cucumber and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node ./test/utils/delete_reports.js",
+    "test": "protractor ./test/config/protractor_config.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "keywords": [
+    "BDD"
+  ],
+  "author": "Uladzislau.Darhel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-pretty": "^6.0.0",
+    "eslint": "^7.1.0",
+    "fs-extra": "^9.0.1",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "yargs": "^15.3.1"
+  }
+}

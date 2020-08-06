@@ -1,0 +1,24 @@
+{
+  "name": "protractor-mocha",
+  "version": "1.0.0",
+  "description": "Selenium Webdriver project",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "webdriverstart": "webdriver-manager start",
+    "test": "protractor ./test/config/protractor.config.js"
+  },
+  "author": "Uladzislau Darhel",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^81.0.0",
+    "geckodriver": "^1.19.1",
+    "mocha": "^7.1.2",
+    "protractor": "^5.4.4",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "webdriver-manager": "^12.1.7"
+  }
+}

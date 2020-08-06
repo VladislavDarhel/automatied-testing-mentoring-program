@@ -1,1 +1,2 @@
-# automatied-testing-mentoring-program
+# automated-testing-mentoring-program
+

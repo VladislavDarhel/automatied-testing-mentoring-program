@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+Twenty ships with Norsemen braves
+Riding the northern wind
+They left their shores at early dawn
+As a red sun was rising in the east
+=======
+>>>>>>> parent of 45b28ab... Add 2 rows to storm

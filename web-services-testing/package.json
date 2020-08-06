@@ -1,0 +1,22 @@
+{
+  "name": "web-services",
+  "version": "1.0.0",
+  "description": "Test web-services",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "rest",
+    "service"
+  ],
+  "author": "Uladzislau Darhel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.2"
+  }
+}
